@@ -1,0 +1,23 @@
+main {
+    width: 99vw;
+    height: 95vh;
+    background-color: azure;
+}
+
+main > div {
+    display:flex;
+    flex-direction: row;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+#first {
+    background-color: #e671d2;
+    height:45vh;
+}
+
+#second {
+    background-color: rgb(78, 202, 161);
+    height: 45vh;
+}
